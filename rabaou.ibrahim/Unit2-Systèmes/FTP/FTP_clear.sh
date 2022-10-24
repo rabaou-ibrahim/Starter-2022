@@ -1,0 +1,1 @@
+sudo apt remove proftpd --purge
