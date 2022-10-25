@@ -1,0 +1,33 @@
+body {
+    background: lightblue;
+  }
+  
+  h1 {
+    font-family: fantasy;
+    border:groove;
+    background-color:white ;
+    color: black;
+    text-align: center;
+  }
+
+  h2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+  }
+
+  ul{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+  }
+
+  li {
+      text-align: center;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+
+  img {
+      text-align: right;
+  }
