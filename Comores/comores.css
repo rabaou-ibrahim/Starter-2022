@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("Roboto/Roboto-Regular.ttf");
+}
+
+@keyframes grow {
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.4);}
+}
+
+@keyframes anim {
+    from {
+        background-image: url("background-image.jpg");
+    }
+    
+    to {
+        background-image: url("background-image6.jpg");
+    }
+}
+
+@keyframes anim2 {
+    from {
+        background-color: rgba(201, 147, 76, 0.801);
+    }
+    
+    to {
+        background-color: rgba(240, 248, 255, 0.575);
+    }
+}
+
+.first {
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+nav {
+    block-size: 100px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.700);
+    font-size: x-large;
+    font-family: 'Roboto';
+    margin-bottom: 150px;
+    border: outset;
+    color: white;
+}
+
+.link_radius {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: medium;
+    list-style-type: none;
+    background-color: rgb(226, 192, 43);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    animation: grow 4s;
+    animation-iteration-count: infinite;
+}
+
+.Flag {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: large;
+    color: white;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Flag_Text {
+	display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: large;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgba(240, 248, 255, 0.575);
+    border: groove;
+    color: black;
+}
+
+.Intro {
+    display: flex;
+    flex-direction: column;
+    block-size: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(201, 147, 76, 0.801);
+    border: groove;
+    font-family: 'Roboto';
+    font-size: large;
+    margin-bottom: 25px;
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.Description {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border: groove;
+    background-color: rgba(240, 248, 255, 0.575);
+    font-family: 'Roboto';
+}
+
+.Moroni {
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-color: rgba(240, 248, 255, 0.575);
+    font-family: 'Roboto';
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.visites {
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-color: rgba(240, 248, 255, 0.575);
+    font-family: 'Roboto';
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.Mvuni {
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-color: rgba(240, 248, 255, 0.575);
+    font-family: 'Roboto';
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Karthala {
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-color: rgba(240, 248, 255, 0.575);
+    font-family: 'Roboto';
+    border-style: double;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
