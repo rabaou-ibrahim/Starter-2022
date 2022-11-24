@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url(‘Roboto/Roboto-Regular.ttf’)
+}
+
+body {
+	background-image: url("phillipe_chatrier.jpg");
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: rgb(255, 126, 41);
+	border-width: 2px black;
+	border-style: groove;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.RG_presentation {
+	border-width: 2px black;
+	border-style: groove;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	background-color: rgb(255, 126, 41);
+	text-align: center;
+}
+
+.RG_history {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(255, 126, 41);
+	
+    border-width: 2px;
+    border-style: groove;
+}
+
+.RG_List_presentation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.img_middle {
+	vertical-align: middle;
+}
+
+.RG_Records_Title {
+    border-width: 2px black;
+	border-style: groove;
+	background-color: rgb(255, 126, 41);
+	font-size: x-large;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.RG_Records {
+    border-width: 2px black;
+	border-style: groove;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(255, 126, 41);
+	list-style-type: none;
+    text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.RG_Memorable_matches {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(255, 126, 41);
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-around;
+    border-width: 2px;
+    border-style: groove;
+}
