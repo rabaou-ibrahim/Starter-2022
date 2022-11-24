@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url(‘Roboto/Roboto-Regular.ttf’)
+}
+
+body {
+	background-image: url("rod-laver-arena-au-coucher-du-soleil-avec-melbournes-horizon-emblematique-dans-l-arriere-plan-t8n0bd.jpg");
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: skyblue;
+	border-width: 2px black;
+	border-style: groove;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.AO_presentation {
+	border-width: 2px black;
+	border-style: groove;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	background-color: skyblue;
+	text-align: center;
+}
+
+.AO_List_presentation {
+	background-color: skyblue;
+	border-width: 2px black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.img_middle {
+	vertical-align: middle;
+}
+
+.AO_history {
+	background-color: skyblue;
+	border-width: 2px black;
+	border-style: groove;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: skyblue;
+}
+
+.AO_Records_Title {
+	background-color: skyblue;
+	border-width: 2px black;
+	border-style: groove;
+	font-size: x-large;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.AO_Records {
+	background-color: skyblue;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	background-color: skyblue;
+	list-style-type: none;
+	text-align: center;
+	border-width: 2px;
+    border-style: groove;
+}
+
+.AO_Memorable_matches {
+	background-color: skyblue;
+	border-width: 2px black;
+	display: flex;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: skyblue;
+	list-style-type: none;
+	flex-direction: column;
+	justify-content: space-around;
+	border-width: 2px;
+    border-style: groove;
+}
