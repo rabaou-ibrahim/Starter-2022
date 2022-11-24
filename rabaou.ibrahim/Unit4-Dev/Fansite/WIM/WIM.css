@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url(‘Roboto/Roboto-Regular.ttf’)
+}
+
+body {
+	background-image: url("center_court.jpg");
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: rgb(159, 41, 255);
+	border-width: 2px black;
+	border-style: groove;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.WIM_presentation {
+	border-width: 2px black;
+	border-style: groove;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	background-color: rgba(44, 187, 0, 0.938);
+	text-align: center;
+}
+
+.WIM_List_presentation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.img_middle {
+	vertical-align: middle;
+}
+
+.WIM_history {
+    border-width: 2px black;
+	border-style: groove;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(44, 187, 0, 0.938);
+}
+
+.WIM_Records_Title {
+    border-width: 2px black;
+	border-style: groove;
+	background-color: rgba(44, 187, 0, 0.938);
+	font-size: x-large;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.WIM_Records {
+    display: flex;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+    border-width: 2px black;
+	border-style: groove;
+	background-color: rgba(44, 187, 0, 0.938);
+	list-style-type: none;
+    text-align: center;	
+}
+
+.WIM_Memorable_matches {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(44, 187, 0, 0.938);
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-around;
+    border-width: 2px;
+    border-style: groove;
+}
