@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url(‘Roboto/Roboto-Regular.ttf’)
+}
+
+body {
+    border: 1px double;
+    background-image: url('Reseau-informatique-connexion.webp');
+}
+
+.nav_global {
+   border: 1px double; 
+   background-color: rgb(255, 255, 255);
+   color: black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: x-large;
+   list-style-type: none;
+}
+
+.titleWSL {
+    border: 1px double;
+    background-color: white;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+.WSL {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    flex-direction: row;
+}
+
+radius {
+    font-size: medium;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 219, 23);
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+}
+
+.YT_WSL_text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    font-size: x-large;
+}
+
+.YT_WSL {
+    justify-content: space-around;
+    display: flex;
+}
+
+.VSCode_global {
+    background-color: yellowgreen;
+}
+
+.titleVSC {
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}
